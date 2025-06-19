@@ -28,7 +28,7 @@ app.post("/send-otp", async (req, res) => {
     from: "tandonnakul987@gmail.com",
     to: email,
     subject: "Your OTP for Password Reset",
-    text: `Your OTP is ${generatedOTP}. It is valid for 5 minutes.`,
+    text: `Your OTP is ${generatedOTP}. It is valid for 5 minutes.and Please do not share this OTP with anyone.`,
   };
 
   try {
